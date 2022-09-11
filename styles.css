@@ -1,4 +1,17 @@
 body {
-  background-image: url(https://github.com/Spong87/FirstWebsite/blob/main/Background.jpg);
-  background-size: 100%;
+    background-image: url(https://raw.githubusercontent.com/Spong87/FirstWebsite/main/Background.jpg);
+    background-size: 100%;
+}
+h1{
+    font-family: 'Copperplate Gothic';
+    font-size: 60px;
+    color: rebeccapurple;
+    text-align:center;
+    padding-top:320px;
+}
+.travel {
+    font-family: Calibri;
+    font-size: 50px;
+    color: yellow;
+    margin-left: 220px;
 }
