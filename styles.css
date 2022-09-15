@@ -1,17 +1,57 @@
 body {
     background-image: url(https://raw.githubusercontent.com/Spong87/FirstWebsite/main/Background.jpg);
     background-size: 100%;
+    padding: 0;
+    margin: 0;
 }
-h1{
-    font-family: 'Copperplate Gothic';
-    font-size: 60px;
-    color: rebeccapurple;
-    text-align:center;
-    padding-top:320px;
+.row-cols-3 {
+    left: 21%;
+    position: absolute;
+    top: 65%;
+    height: 35%
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+.description {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: rebeccapurple;
+    font-size: 72px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: black
 }
 .travel {
-    font-family: Calibri;
-    font-size: 50px;
-    color: yellow;
-    margin-left: 220px;
+    color: darkgreen;
+    font-size: 48px;
+}
+.family {
+    color: deeppink;
+    font-size: 48px;
+}
+.wife {
+    color: gold;
+    font-size: 48px;
+}
+.hobbies {
+    color: dodgerblue;
+    font-size: 48px;
+}
+.interests {
+    color: darkorange;
+    font-size: 48px;
+}
+.professional {
+    color: red;
+    font-size: 48px;
 }
