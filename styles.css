@@ -9,13 +9,8 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding: 10px;
-    margin-left: 24%;
+    margin-left: 2%;
     margin-top: 30%;
-}
-.grid-item {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    text-align: center;
 }
  .overlay {
     position: absolute;
@@ -28,7 +23,7 @@ body {
 .description {
 	left: 50%;
 	position: absolute;
-	top: 50%;
+	top: 48%;
 	transform: translate(-50%, -55%);
 	text-align: center;
 }
@@ -39,26 +34,37 @@ body {
     border: black
 }
 .travel {
+    text-align: center;
+
+}
+.travel a {
+    position: relative;
     color: darkgreen;
     font-size: 48px;
+    text-decoration: none;
 }
 .family {
     color: deeppink;
     font-size: 48px;
+    text-align: center;
 }
 .wife {
     color: gold;
     font-size: 48px;
+    text-align: center;
 }
 .hobbies {
     color: dodgerblue;
     font-size: 48px;
+    text-align: center;
 }
 .interests {
     color: darkorange;
     font-size: 48px;
+    text-align: center;
 }
 .professional {
     color: red;
     font-size: 48px;
+    text-align: center;
 }
